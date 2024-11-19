@@ -13,12 +13,12 @@ header {
     text-align: center;
     padding: 20px;
     font-family: "Edu TAS Beginner", serif;
-    /* debug */
-    border: 1px solid black;
     background-image: url(./img/wall.png);
     background-size: cover;
     background-position: center;
-    text-align: center;  
+    /* debug */
+    border: 1px solid black;
+   
 }
 
 h1 {
@@ -56,5 +56,4 @@ main {
     font-size: 1rem;
     /* debug */
     border: 1px solid black;
-    
 }
