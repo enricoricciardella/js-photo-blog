@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+header{
+   
+    font-family: "Edu TAS Beginner", serif;
+    text-align: center;
+    min-height: 100px;
+    /* background-image: url("../../js-photo-blog2/img/cork.png"); */
+    background-image: url("/img/wall.png");
+    background-size: cover;
+    background-position: center;
+}
+main {
+    font-family: "Edu TAS Beginner", serif;
+}
+.title{
+    text-align: center;
+    padding: 30px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+    
+}
+
+.row {
+    padding: 10px 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* debug */
+    border: 1px solid black;
+    background-image: url(/img/cork.png);  
+    color: black;
+}
+
+.card {
+    padding: 10px;
+    width: calc((100% / 3) - 20px);
+    background-color: #fff;
+    
+}
+.paragraph {
+    padding-top: 5px;
+}
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal{
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+}
+.d-none{
+    display: none;
+}
